@@ -5,7 +5,7 @@
     --color-text-light-w: #fff;
     --color-logo-clasic: #ff0000;
     --border-settings: 1px solid #272727;
-    --boxshadow-settings:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    --boxshadow-settings: 0 0 3px 2px rgba(0, 0, 0, 0.2);
     scroll-behavior: smooth;
 }
 
@@ -20,6 +20,7 @@
     --color-text-dark-b: #000;
     --color-input: #fff;
     --border-settings: 1px solid #ccc;
+    --boxshadow-settings: 0 0 3px 2px rgba(0, 0, 0, 0.2);
 }
 .page--dark-theme{
     --color-theme-light-w: #181818;
@@ -31,7 +32,7 @@
     --color-text-light-g: #828282;
     --color-text-light-w: #111111;
     --color-text-dark-b: #fff;
-    
+    --boxshadow-settings: 0 0 3px 2px rgba(109, 109, 109, 0.2);
     --border-settings: 1px solid #272727;
 }
 
@@ -42,6 +43,7 @@
 }
 
 .page{
+    font-family: var(--fontfamily-principal);
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
@@ -206,14 +208,16 @@
 /*:::::::::::::::N A V:::::::::::::::*/
 .nav-lateral {
         position: fixed;
-        top: 6rem;
+        top: 6.5rem;
         left: 0;
         width: 4rem;
         height: 100vh;
         grid-area: nav;
         background-color: var(--color-theme-light-w);
+        box-shadow: var(--boxshadow-settings);
         overflow: hidden;
-        padding: 1.5rem 0;
+        padding: 0;
+        
     }
     .nav-lateral__link{
         display: block;
@@ -280,6 +284,18 @@
     .suscripciones{
         display:none;
     }
+    .theme-controlator{
+        border: none;
+        border: var(--border-settings);
+        cursor: pointer;
+        border-radius: 1rem;
+        width: 4rem;
+        padding: .5rem;
+        font-size: .8rem;
+        background-color: var(--color-button-bg);
+        border: var(--border-settings);
+        text-align: center;
+    }
 
 
 
@@ -294,6 +310,7 @@
 /*:::::::::::::::M A I N:::::::::::::::*/
 .main {
         grid-area: main;
+        margin-top: 1rem;
         padding: 2rem;
         display: grid;
         gap: .75rem 1rem;
@@ -305,6 +322,7 @@
         text-decoration: none;
         color: var(--color-text-dark-b);
         font-weight: 300;
+        height: auto;
         gap: .75rem;
     }  
     .main__videos-container{
@@ -355,4 +373,97 @@
         font-weight: 400;
         margin: 0;
     }
+
+
+    @media (min-width: 720px){
+
+        .main {
+            grid-template-columns: repeat(3, 1fr);  
+        }
     
+        .main__videos-container{
+            grid-template-columns: 2.5rem auto;
+            grid-template-rows: auto 2.5rem 1rem;
+        }
+    }
+    
+    
+    
+    
+    @media (min-width: 1440px){
+        .page {
+        grid-template-columns: 5.5rem auto;
+        grid-template-rows: 3.5rem auto;
+        }
+        .page--active {
+            grid-template-columns: 17rem auto;
+        }
+    
+        .header {
+        width: 100%;
+        grid-template-columns: auto 1fr auto;
+        justify-content: space-between;
+        padding: 0;
+        gap: .5rem;
+        grid-template-areas:
+            "logo search buttons";    
+        }
+    
+    
+        .header-buttons-container{    
+            justify-content: center;
+        }
+        .header-button{
+            display: block;
+        }
+    
+    
+        .nav-lateral {
+            padding: 0;
+            position: static;
+            width: 100%;
+            height: 100%;
+        }
+        .nav-lateral__link{
+            padding: 1rem 2.25rem;
+        }
+    
+        .fa-home,
+        .fa-compass,
+        .fa-star,
+        .fa-calendar-check,
+        .fa-history,
+        .fa-music,
+        .fa-lightbulb,
+        .fa-thumbs-up,
+        .fa-cog{
+            margin-right: 2rem;
+        }
+        .suscripciones{
+        display:block
+        }
+        .theme-controlator{
+            margin-left: 3rem;
+            font-size: 1rem;
+            width: 10rem;
+            color: var(--color-text-dark-b);
+        }
+    
+        .suscripciones--desactive{
+            display: none;
+        }
+        
+        .main {
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 0;  
+            /* padding: 0; */
+        }
+    
+        .main__videos-container{
+            grid-template-columns: 2.5rem auto;
+            grid-template-rows: auto 2.5rem 1rem;
+        }
+        .main__videos-name{
+            font-size: 1rem;
+        }
+    }
