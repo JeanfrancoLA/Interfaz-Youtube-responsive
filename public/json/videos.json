@@ -1,0 +1,98 @@
+[
+    {
+        "id":"1",
+        "name": "Auron ✔",
+        "imgVideo":"https://i.postimg.cc/wv4VYf56/auron-sqgam.jpg",
+        "logoCanal": "https://i.postimg.cc/JnsT0Czy/logo-auron.jpg",
+        "nameVideo": "Comentando LA FINAL DE LOS SQUID GAMES",
+        "searchVideo": "https://www.youtube.com/watch?v=8YtJqNO6pEk&t=1932s"
+    },
+    {
+        "id":"2",
+        "name": "Elliot Garamendi ✔",
+        "imgVideo":"https://i.postimg.cc/dQXBWft6/elliot-novia.jpg",
+        "logoCanal":"https://i.postimg.cc/qMs1zL4G/logo-elliot.jpg", 
+        "nameVideo": "Página Web ¿Quieres ser mi novia?",
+        "searchVideo": "https://www.youtube.com/watch?v=udd_J6vmkvc"
+    },
+    {
+        "id":"3",
+        "name": "Te lo resumo ✔",
+        "imgVideo":"https://i.postimg.cc/Hk09ks0v/resumo-eterna.jpg",
+        "logoCanal": "https://i.postimg.cc/GhwMLNw2/logo-resumo.jpg",
+        "nameVideo": "Eternals | #TeLoResumos",
+        "searchVideo": "https://www.youtube.com/watch?v=7ytrr8c1AIY"
+    },
+    {
+        "id":"4",
+        "name": "Elliot Garamendi ✔",
+        "imgVideo":"https://i.postimg.cc/W1c7VJZJ/elliot-pvz.jpg",
+        "logoCanal": "https://i.postimg.cc/qMs1zL4G/logo-elliot.jpg",
+        "nameVideo": "Plantas contra Zombies 2 || Pantano del Jurasico",
+        "searchVideo": "https://www.youtube.com/watch?v=LxdZLsqJoIg&t=13s"
+    },
+    {
+        "id":"5",
+        "name": "Auron ✔",
+        "imgVideo":"https://i.postimg.cc/zvLkzCpT/auron-tetoners.jpg",
+        "logoCanal": "https://i.postimg.cc/JnsT0Czy/logo-auron.jpg",
+        "nameVideo": "TETONERS #3 || MÁS MALOS QUE AGREDIR A TU PROPIO ABUELO",
+        "searchVideo": "https://www.youtube.com/watch?v=5A4wo1hhaBw&t=316s"
+    },
+    {
+        "id":"6",
+        "name": "Programación ATS ✔",
+        "imgVideo":"https://i.ytimg.com/vi/9DE_Z4L8urI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_GIOxO03JvTvWeIHaaAlJLx_xwQ",
+        "logoCanal": "https://i.postimg.cc/mZFXG4nJ/logo-ats.jpg",
+        "nameVideo": "1. Programación en Java || Introducción a Java",
+        "searchVideo": "https://www.youtube.com/watch?v=9DE_Z4L8urI&t=3s"
+    },
+    {
+        "id":"7",
+        "name": "Programación ATS ✔",
+        "imgVideo":"https://i.postimg.cc/q7LwjMz6/ats-phyton.jpg",
+        "logoCanal": "https://i.postimg.cc/mZFXG4nJ/logo-ats.jpg",
+        "nameVideo": " Programación Python | Condicionales || Cajero automático",
+        "searchVideo": "https://www.youtube.com/watch?v=kAdgwY_mVxM"
+    },
+    {
+        "id":"8",
+        "name": "SensaCine TRAILERS ✔",
+        "imgVideo":"https://i.postimg.cc/bv301CBQ/trailers-ds2.jpg",
+        "logoCanal": "https://i.postimg.cc/mgT8MHrW/logo-traillers.jpg",
+        "nameVideo": "DOCTOR STRANGE 2 (Zombis) Tráiler Español Latino",
+        "searchVideo": "https://www.youtube.com/watch?v=qO0GFClg88Y"
+    },
+    {
+        "id":"9",
+        "name": "Bluuweb ✔",
+        "imgVideo":"https://i.postimg.cc/Zn1xCWD2/bluuweb-js.jpg",
+        "logoCanal": "https://i.postimg.cc/nr70KK7p/logo-bluuweb.jpg",
+        "nameVideo": "Curso JavaScript 2022 (GRATIS) - Parte #02",
+        "searchVideo": "https://www.youtube.com/watch?v=w_bM1l1UGnY"
+    },
+    {
+        "id":"10",
+        "name": "AlexCG Design ✔",
+        "imgVideo":"https://i.postimg.cc/ZqZj8yKh/alexcg-grid.jpg",
+        "logoCanal": "https://i.postimg.cc/tgSS94pQ/logo-alex.jpg",
+        "nameVideo": "APRENDE CSS GRID (Actualizado!) 2022",
+        "searchVideo": "https://www.youtube.com/watch?v=-h6hCkSTXIo"
+    },
+    {
+        "id":"11",
+        "name": "Te lo resumo ✔",
+        "imgVideo":"https://i.postimg.cc/1z9cnhJm/resumo-sqgam.jpg",
+        "logoCanal": "https://i.postimg.cc/GhwMLNw2/logo-resumo.jpg",
+        "nameVideo": "Juego Del Calamar ¿Por qué Es La Más Vista? No se",
+        "searchVideo": "https://www.youtube.com/watch?v=nEGQbVacOaU"
+    },
+    {
+        "id":"12",
+        "name": "Carlos Azaustre-JavaScript ✔",
+        "imgVideo":"https://i.postimg.cc/zXgk4kyr/carlos-plugin.jpg",
+        "logoCanal": "https://i.postimg.cc/W3x5JYd5/logo-carlos.jpg",
+        "nameVideo": "💥 MEJOR PLUGIN VSCODE Autocompletado con AI",
+        "searchVideo": "https://www.youtube.com/watch?v=UAW6EmRoMLs"
+    }  
+]
