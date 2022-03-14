@@ -17,7 +17,52 @@
     <link rel="icon" href="./public/img/youtube.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Youtube</h1>
+    <div>
+        <header class="header">
+            <section class="header-logo-container">
+              <button class="header-menu" id="buttonNav"><i class="fas fa-bars"></i></button>
+              <a href="#" class="header-logo"><i class="fas fa-play header-logo-fas"></i><span class="header-logo__text">Youtube</span><span class="header-logo__text2">PE</span></a>
+            </section>
+            <form class="header-search">
+                <input class="header-search__input" type="text" placeholder="Buscar"/>
+                <button class="header-search__button" type="submit"><i class="fas fa-search"></i></button>
+                <button class="header-search__voice"><i class="fas fa-microphone"></i></button> 
+            </form>
+            <section class="header-buttons-container">
+              <button class="header-button"><i class="fas fa-upload"></i></button>
+              <button class="header-button"><i class="fas fa-th"></i></button>
+              <button class="header-button"><i class="fas fa-bell"></i></button>
+              <a href="#" class="header-avatar-container"><img class="header-avatar-image" src="./public/img/avatar.jpg" alt="miAvatar"></a>
+            </section>
+        </header>
+
+        <nav class="nav-lateral">
+            <a class="nav-lateral__link nav-lateral__link--active" href="#"><i class="fas fa-home"></i>Inicio</a>
+            <a class="nav-lateral__link" href="#"><i class="far fa-compass"></i>Explorar</a>
+            <a class="nav-lateral__link" href="#"><i class="far fa-star"></i>Tendencias</a>
+            <a class="nav-lateral__link" href="#"><i class="far fa-calendar-check"></i>Suscripciones</a>  
+            <hr class="nav-separator">
+            <a class="nav-lateral__link" href="#"><i class="fas fa-history"></i></i>Historial</a>
+            <a class="nav-lateral__link" href="#"><i class="far fa-thumbs-up"></i>Videos que me gustan</a>
+            <a class="nav-lateral__link" href="#"><i class="fas fa-music"></i>Youtube Music</a>
+            <a class="nav-lateral__link" href="#"><i class="far fa-lightbulb"></i>Aprendizaje</a>
+            <div class="suscripciones" id="suscripciones">
+            <hr class="nav-separator">
+                <h4 class="nav-subtitle"> SUSCRIPCIONES </h4>
+                <a href="#" class="nav-lateral__link logo-canales-container"><img class="logo-canal-image" src="https://i.postimg.cc/JnsT0Czy/logo-auron.jpg" alt="logo-Auronplay"> Auron</a>
+                <a href="#" class="nav-lateral__link logo-canales-container"><img class="logo-canal-image" src="https://i.postimg.cc/GhwMLNw2/logo-resumo.jpg" alt="logo-TeloResumo"> Te lo resumo</a>
+                <a href="#" class="nav-lateral__link logo-canales-container"><img class="logo-canal-image" src="https://i.postimg.cc/qMs1zL4G/logo-elliot.jpg" alt="logo-ElliotGaramendi">Elliot.Garamendi</a>
+                <a href="#" class="nav-lateral__link extra-canales"><i class="fas fa-angle-double-down"></i>Mostrar 50 más</a>      
+            </div>
+            <hr class="nav-separator">
+            <h4 class="nav-subtitle"> MÁS DE YOUTUBE </h4>
+            <a class="nav-lateral__link" href="#"><i class="fas fa-cog"></i>Configuración</a>
+            <button class="theme-controlator" id="themeControlator">Theme Mode
+            </button>
+          </nav>
+
+        <main class="main"></main>
+      </div>
 
 
     <script
