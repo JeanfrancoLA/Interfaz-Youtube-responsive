@@ -1,6 +1,7 @@
 :root{
     --fontfamily-principal: 'Roboto', sans-serif;
     --fontfamily-logo: 'League Gothic', sans-serif;
+    --color-theme-light-w: #fff;
     --color-text-dark-b: #000;
     --color-text-light-w: #fff;
     --color-logo-clasic: #ff0000;
@@ -15,6 +16,8 @@
     --color-button-hover: #f4f4f4;
     --color-button-active: #e5e5e5;
     --color-button-bg2: #686868;
+    --color-separator: #d1d1d1;
+    --color-link-hover: #181888;
     --color-text-light-g: #828282;
     --color-text-light-w: #fff;
     --color-text-dark-b: #000;
@@ -29,17 +32,13 @@
     --color-button-active: #2a2a2a;
     --color-input: #1d1d1d;
     --color-button-bg2: #fafafa;
+    --color-separator: #333333;
+    --color-link-hover: #0051ff;
     --color-text-light-g: #828282;
     --color-text-light-w: #111111;
     --color-text-dark-b: #fff;
     --boxshadow-settings: 0 0 3px 2px rgba(109, 109, 109, 0.2);
     --border-settings: 1px solid #272727;
-}
-
-
-
-.body {
-    font-family: var(--fontfamily-principal);
 }
 
 .page{
@@ -79,17 +78,17 @@
         "logo buttons"
         "search search";
 }
-.header-menu {
-    border: none;
-    padding: .75rem;
-    background: none;
-    cursor: pointer;
-    font-size: 1.25rem;
-    border-radius: 100%;
-    width: 3.5rem;
-    height: 3.5rem;
-    color: var(--color-text-dark-b);
-    
+    .header-menu {
+        display: none;
+        border: none;
+        padding: .75rem;
+        background: none;
+        cursor: pointer;
+        font-size: 1.25rem;
+        border-radius: 100%;
+        width: 3.5rem;
+        height: 3.5rem;
+        color: var(--color-text-dark-b);    
 }
     .header-menu:hover {
         background-color: var(--color-button-hover);
@@ -208,7 +207,7 @@
 /*:::::::::::::::N A V:::::::::::::::*/
 .nav-lateral {
         position: fixed;
-        top: 6.5rem;
+        top: 6rem;
         left: 0;
         width: 4rem;
         height: 100vh;
@@ -217,6 +216,7 @@
         box-shadow: var(--boxshadow-settings);
         overflow: hidden;
         padding: 0;
+        z-index: 2;
         
     }
     .nav-lateral__link{
@@ -251,7 +251,7 @@
     }
     .nav-separator{
         margin: .5rem 0;
-        border: .1px solid #e0e0e0;
+        border: .1px solid var(--color-separator);
     }
     .logo-canales-container,
     .extra-canales{
@@ -310,6 +310,7 @@
 /*:::::::::::::::M A I N:::::::::::::::*/
 .main {
         grid-area: main;
+        z-index: 1;
         margin-top: 1rem;
         padding: 2rem;
         display: grid;
@@ -343,7 +344,7 @@
             "logo canal"        
     }   
     .main__videos-container:hover{
-        color: #0c0c5d;
+        color: var(--color-link-hover);
         filter: brightness(120%);
     }
     .main__videos-image{
@@ -408,8 +409,9 @@
         grid-template-areas:
             "logo search buttons";    
         }
-    
-    
+        .header-menu {
+            display: block;
+        }
         .header-buttons-container{    
             justify-content: center;
         }
